@@ -1,0 +1,22 @@
+body {
+    background-color:rgb(70, 65, 65);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 14pt;
+
+}
+
+h1{
+    font-size: 50pt;
+}
+h1,h2{
+    color: rgb(139, 139, 201);
+   
+}
+span{
+    color: yellow;
+    
+}
+a{
+    color: red;
+}
