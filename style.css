@@ -1,0 +1,55 @@
+body {
+    background-color:rgb(70, 65, 65);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 14pt;
+
+}
+
+h1{
+    font-size: 50pt;
+}
+h1,h2{
+    color: rgb(139, 139, 201);
+   
+}
+span{
+    color: yellow;
+    
+}
+a{
+    color: red;
+}
+a:link{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+p::first-letter{
+    font-size:150%;
+}
+li.details{
+    list-style-type:none;
+    color:yellow;
+}
+li.details>p::first-letter{
+    font-size: 100%;
+    
+}
+li.details>p{
+    font-size: 75%;
+    text-indent: 2%;
+    color:white;
+    
+}
+ol{
+    counter-reset: my-custom-counter 4;
+    list-style: none;
+}
+ol>li {
+    counter-increment: my-custom-counter -1;
+  }
+  ol>li::before {
+    content: counter(my-custom-counter) '. ';
+  }
