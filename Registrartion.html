@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            Registartion-Form
+        </title>
+        <link href="./registration.css" type="text/css" rel="stylesheet">
+    </head>
+  <body>
+     <section class="container">
+        <header class="headeritem" >
+            <h3>WorkShop Registartion</h3>
+        </header>
+        <div >
+            <p>Register now while seats are available</p>
+            <form action ="https://www.google.com">
+            <div class="formleft"> 
+             <label for="firstname">First Name <input type="text" id="firstname" required></label> <br><br>
+                <label for="lastname">Last Name <input type="text" id="lastname" required></label> <br><br>
+                <label for="companyinstitution">Company Institution <input type="text" id="companyinstitution" required></label> <br><br>
+                <label for="adress">Adress<textarea id="adress" rows="5" cols="40" required></textarea></label> <br><br>
+                <label for="city">City <input type="text" id="city"></label> <br><br>
+                <label for="state">State
+                <select id="state">
+                    <option>Iowa</option>
+                    <Option>California</Option>
+                    <option>Illinois</option>
+                </select>
+               </label> <br><br>
+               <label for="country">Country
+                <select id="country">
+                    <option>USA</option>
+                    <Option>India</Option>
+                    <option>UK</option>
+                </select>
+               </label> <br><br>
+               <label for="email">E-mail <input type="text" id="email" required></label> <br><br>
+               <label for="phone">Phone Number<input type="text" id="phone" required></label> <br><br> 
+            </div>
+               
+            <div class="formright">
+                <p>Lunch</p>
+                    <label for="meal">Meal Preference
+                        <select id="meal">
+                            <option>Vegeterian</option>
+                            <Option>Non-Vegitrean</Option>
+                        </select>
+                    </label> <br><br>
+                    <p>Payment Details</p>
+                   Payment Mode: <label for="cash"><input type="checkbox" id="cash">Cash</label><br><br>
+                                 <label for="check"><input type="checkbox" id="check">Check</label><br><br>
+                                 <label for="dd"><input type="checkbox" id="dd">Demand Draft</label><br><br>
+                <label for="checkno">DD/Check No. <input type="text" id="checkno"></label> <br><br>
+                <label for="drawnon">Drawn on(Bank name)<input type="text" id="drawnon"></label> <br><br>
+                <label for="payable">Payable at <input type="text" id="payable"></label> <br><br>
+                
+            </div>                 
+            </form>
+        </div>
+        
+        <footer class="footeritem">
+            <input type="submit">
+            <input type="reset">
+        </footer>
+        
+      </section>      
+  </body>
+</html>
